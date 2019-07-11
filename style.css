@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-template-columns-1{
+    grid-template-columns: 6.65% 11.65% 26.65% 31.65% 11.65% 11.65%;
+    grid-template-rows: 32vh;
+}
+
+.grid-template-columns-2{
+    grid-template-columns: 6.65% 11.65% 26.65% 10.825% 20.825% 11.65% 11.65%;
+    grid-template-rows: 34vh;
+}
+
+.grid-template-columns-3{
+    grid-template-columns: 6.65% 11.65% 37.475% 20.825% 11.65% 11.65%;
+    grid-template-rows: 18vh;
+}
+
+.grid-template-columns-4{
+    grid-template-columns: 6.65% 11.65% 37.425% 32.525% 11.65%;
+    grid-template-rows: 16vh; 
+}
+
+
+.branco{
+    background-color: white;
+}
+.amarelo{
+    background-color: #ffff00;
+}
+.azul{
+    background-color: #0000fe;
+}
+.vermelho{
+    background-color: #f10d0c;
+}
+
+.am1, .az1, .v1, .am2, .b4, .b5, .b6, .az2, .v2, .b9, .v3, .b10, .am3{
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+}
+
+.az3, .am4, .b8, .b12, .b13{
+    border-right: 15px solid black;
+}
+
+.b1, .b3{
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+}
+.b2, .b11{
+    border-bottom: 15px solid black;
+}
